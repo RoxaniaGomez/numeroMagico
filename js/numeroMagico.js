@@ -7,7 +7,7 @@ let numeroMagico = {
     //metodos
 
     iniciar: function () {
-        this.numeroMagicoo = Math.floor(Math.random() * 2);
+        this.numeroMagicoo = Math.floor(Math.random() * 50);
         this.intentos = 0;
 
         window.alert("El numero magico es un numero entre 1 y 50, luego de elegirlo te dare una pista para encontrarlo, si lo adivinas, Ganas el juego!!!");
