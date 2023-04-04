@@ -2,8 +2,9 @@
 ## ejercicio de El numero magico
 _ En este juego la computadora seleccionará aleatoriamente un número entero entre 0 y 50. Tu seguirás adivinando números hasta encontrar el número de la computadora, y la computadora te dirá cada vez si tu intento es demasiado alto o demasiado bajo_
  ![numero magico](./img/adivino.jpg)
+ 
 _Puede ver el proyecto a traves de netlify_
-### https://poo-javascript-rollingcode.netlify.app/
+### hhttps://numeromagico-roxania.netlify.app/
 
 #### Construido con 🛠️
 * [HTML5](https://www.w3schools.com/html/default.asp) - Maquetado estatico
