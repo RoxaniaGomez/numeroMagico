@@ -26,14 +26,14 @@ let numeroMagico = {
             if (this.intentos == 1) {
                 document.getElementById("volverAIniciar").style.display = "initial";
                 document.getElementById("formAdivinar").style.display = "none";
-                document.getElementById("cajaIniciar").style.position = 'absolute';
+                document.getElementById("cajaIniciar").style.display = "none"
                 document.getElementById("mensajito").style.display = "initial";
                 document.getElementById("mensajito").innerHTML = ("Eres realmente un adivino lo lograste en " + this.intentos + " intento");
                 document.getElementById("adivino").style.display = "initial";
             } else {
                 document.getElementById("volverAIniciar").style.display = "initial";
                 document.getElementById("formAdivinar").style.display = "none";
-                document.getElementById("cajaIniciar").style.position = 'absolute';
+                document.getElementById("cajaIniciar").style.display = "none";
                 document.getElementById("mensajito").style.display = "initial";
                 document.getElementById("mensajito").innerHTML = ("ganaste!! felicidades lo lograste en " + this.intentos + " intentos");
 
@@ -48,7 +48,7 @@ let numeroMagico = {
         document.getElementById("mensajito").style.display = "none";
         document.getElementById("volverAIniciar").style.display = "none";
         document.getElementById("adivino").style.display = "none";
-        document.getElementById("cajaIniciar").style.position = 'static';
+        document.getElementById("cajaIniciar").style.display = "initial";
         document.getElementById("iniciar").style.display = "initial";
 
     }
